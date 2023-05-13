@@ -1,0 +1,16 @@
+.container{
+    background-color: aqua;
+    padding: 15px;
+    display: flex;
+   
+}
+
+.item{
+    background-color: red;
+    color: white;
+    padding: 10px 15px;
+    margin: 10px 0px;
+    height: 100px;
+    width: 100px;
+    margin: 30px;
+}

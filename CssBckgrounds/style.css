@@ -1,0 +1,43 @@
+body{
+    background-image: url("https://thumbs.dreamstime.com/b/landscape-nature-view-background-view-window-landscape-nature-view-background-view-window-wonderful-landscape-121459679.jpg");
+    background-repeat: repeat-x;
+    background-repeat: repeat-y;
+    background-repeat: repeat;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-attachment: scroll;
+    /* background-position: scroll ;
+    background-position: fixed; */
+    background-size: cover;
+    background-attachment: fixed;
+}
+h1{
+    color: blue;
+    background-color: yellow;
+    background-color: #ec98ec;
+    background-color: rgb(208, 167, 183);
+    opacity: 1.0;
+
+
+    
+    /* 
+    color value
+    Hex values 
+    rgb values 
+    r-red g- green b-blue (0 -255)
+    Opacity : 0.0 to 1.0 tak value leta ha 
+    the value can be trasparency of the background color can be adjust using the optacity property 
+    
+    */
+}
+
+p{
+    background-color: lightcyan;
+}
+
+.container{
+    background-color: #c7d4e2;
+    width: 600px;
+    height: 400px;
+    background-image: url("https://png.pngtree.com/thumb_back/fh260/background/20200714/pngtree-modern-double-color-futuristic-neon-background-image_351866.jpg");
+}
