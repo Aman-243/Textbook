@@ -1,0 +1,44 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+
+.container{
+    width: 80%;
+    margin: 0 auto;
+    background-color: #d39999;
+    border: 2px solid #ccc;
+    padding: 10px;
+
+}
+.container > h1{
+    background-color: rgb(229, 229, 246);
+    padding: 20px 10px;
+    text-align: center;
+    color: blue;
+}
+.container >img{
+    width: 200px;
+    height: 200px;
+    margin: 20px 15px 10px 0px;
+    background-color: gray;
+    padding: 10px;
+    float: left;
+    
+}
+.aman>img{
+    width: 200px;
+    height: 200px;
+    margin: 20px 15px 10px 0px;
+    background-color: gray;
+    padding: 10px;
+    float: right;
+    
+}
+.container >text{
+    margin: 20px 15px;
+    text-align: justify;
+    color: #d39999;
+}

@@ -1,0 +1,82 @@
+*{
+    margin: 0;
+    background-color: lightblue;
+}
+.item{
+    width: 200px;
+    height: 200px;
+    background-color: blue;
+    margin: 40px 0px 0px 40px;
+    /* position: static; no change only static */
+    
+}
+
+
+.item > div{
+    width: 200px;
+    height: 200px;
+    background-color: green;
+    margin: 40px 0px 0px 0px;
+    position: relative; its a basiclly div ke ander div and fixing a posiotn top se 20 px piche wale dic show hoga age wala 15pc niche 
+    top: 20px;
+    left: 30px;
+    bottom: 15px;
+}
+
+.item2{
+    width: 200px;
+    height: 200px;
+    background-color: red;
+    margin: 40px 0 0 4px;
+    position: relative;
+}   
+.item2 >div{
+    width: 50px;
+    height: 50px;
+    background-color: #fff;
+    margin: 40px 0px 0px 0px;
+
+   /* 1. position absoulite direct 
+        2.  it wiill ignore other element and then postion itself width body
+        3. jav bhi ham kisi child pa absoulity property dege to uske partent pa always relative property hoge 
+   */
+   position: absolute;
+   top: 20px;
+   left: 100px;
+}
+
+.item3{
+    width: 200px;
+    height: 200px;
+    background-color: yellow;
+    margin: 0px 10px   ;
+    position: fixed; 
+    /* top: 20px;  ak jgha par fixed */
+}
+
+/* sticky working in a same way fixed but its working a conditional level  */
+.item5{
+    width: 200px;
+    height: 200px;
+    background-color: rgb(4, 0, 255);
+    /* margin: 50px 10px   ; */
+    /* position: sticky;
+    top: 100px; */
+}
+
+/* 
+Position in HTML element
+position
+static
+relative
+absolute
+fixed
+sticky
+
+z-index
+
+
+
+
+
+*/

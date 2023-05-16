@@ -1,8 +1,14 @@
 .container{
     background-color: aqua;
     padding: 15px;
+    height: 700px;
     display: flex;
-   
+    flex-wrap: wrap;    /* flex-wrap: wrap; height and width ke acording item align karta ha  scren size ke  acording and mobike frendly */
+    /* flex-wrap: wrap-reverse;  show item ulte */
+    /* flex-flow: row-reverse; */
+    /* justify-content: space-evenly; */
+    /* align-items: center; */
+    align-items: stretch;
 }
 
 .item{

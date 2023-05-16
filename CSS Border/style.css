@@ -1,0 +1,68 @@
+a{
+    border-style: solid;
+    border-color: orange;
+    padding: 4px 10px;
+    border-width: 2px;
+    /* border style width color it self  */
+    border: solid 2px darkblue
+    border-radius: 10px;
+
+
+    border-top-left-radius: 20px;
+    border-bottom-right-radius: 30px;
+
+}
+a:hover{
+    color: red;
+    background-color: blue;
+}
+table,tr,td,th{
+    border: solid 2px red;
+    /* border-collapse: collapse; its property border show simgle line  */
+}
+
+/* h1{
+    color: blue;
+}
+p{
+    /* border-style: none; this is a default property 
+    border-style: dotted;
+    border-style: double;
+    border-style: dashed;
+    border-style: solid; */
+
+
+/* 
+    border-style: solid;
+    border-block-start-style: dotted;
+    border-block-end: dashed;
+    border-inline-start: double;
+    border-inline-end: dotted cornflowerblue; */
+
+
+
+    /* there are short hand property border-style: Top right bottom left  */
+    /* border-style: dotted solid dashed double; */
+
+    /* bordert style tw0 property border-style: top bottom left-right only for two property  */
+
+    /* border-style: double dotted; */
+
+    /* Border width property buy default thick medium thin */
+    /* border-width: medium; */
+    /* border-width: 20px; */
+    /* border-block-start-width: 20px; */
+
+
+    /* Border color */
+    /* border-color: violet;
+    border-block-start-color: orange; */
+
+    */
+    a{
+       border-style: solid;
+       border-color: orange;
+    }
+   
+   
+   }
