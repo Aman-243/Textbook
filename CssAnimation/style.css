@@ -1,0 +1,51 @@
+*{
+    background-color: lightblue;
+}
+
+.container{
+    width: 600px;
+    height: 600px;
+    background-color: darkblue;
+}
+.child{
+    width: 100px;
+    height: 100px;
+    background-color: red;
+    /* transition: transform 1.5s ease; */
+    transition: all 2s ease-in;
+}
+.container:hover>.child{
+    /* transform: translateX(300%) translateY(300%); */
+    /* background-color: aqua;
+    transform: translateX(500%); */
+    animation: round 2s ease-in backwards infinite alternate ;
+    animation-direction: alternate;
+}
+
+@keyframes round {
+    /* state in the animation initial stage ,rpremid,mid post mid end  */
+    /* jab kuch na ho 0 */
+    0%{
+        transform: translateX(0%);
+
+    }
+    33%{
+        transform: translateY(500%);
+    }
+    75%{
+        transform: translateX(500%) translateY(500%);
+    }
+    100%{
+        transform: translateX(500%);
+    }
+}
+
+name time ya duraction animation timing feFunc ease-in start tej but jate hue normal speed
+
+
+
+
+/* how we can add animaction propertes 
+transform  like rotated trag  translate(300%)pa hover pa move hoga 
+transition property slow karne ke liye moved element  
+4 taraf se round ke liye not working transform working on animaction */

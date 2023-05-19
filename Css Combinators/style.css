@@ -1,0 +1,24 @@
+
+/* defaule property end  */
+
+
+/* combinators */
+
+/* space,+ ,>, ~ */
+
+/* .container  p {
+    color: yellow;  space selector 
+} */
+
+/* .container > p  {
+    color: red; Adjacent 
+
+} */
+
+.container >.inside-container  >  p{
+    color: blue;
+}
+
+li+li{
+    color: darkblue;
+}
