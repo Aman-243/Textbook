@@ -1,0 +1,62 @@
+*{
+    /* background-color: red; */
+    margin: 0;
+    padding: 0;
+    
+}
+h1{
+    color: blueviolet;
+}
+
+
+.calculator {
+    max-inline-size: 22rem; 
+    border-radius: 10px; 
+    overflow: hidden; 
+    box-shadow: 0px 3px 6px 0px rgba(0, 0, 0, 0.15);
+    text-align: center;
+}
+  
+  .calculator__output {
+    font-size: 2rem;
+    text-align: end;     background: hsl(202, 11%, 29%);
+    color: hsl(255, 100%, 100%); 
+    padding-block-start: 0.25rem;
+    padding-block-end: 0.25rem; 
+    padding-inline-end: 0.75rem; 
+  }
+  .calculator__keys {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+  }
+  .calculator__key--enter {
+    grid-column: 4 / 5;
+    grid-row: 2 / span 4;
+  }
+  .calculator__key {
+    border: none;
+    padding-block-start: 0.5rem; 
+    padding-block-end: 0.5rem; 
+    padding-inline-start: 1.25rem; 
+    padding-inline-end: 1.25rem; 
+    font-size: 1.5rem;
+    border-radius: 10%;
+  }
+  .calculator__keys {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 1px;
+    background: hsl(208, 24%, 74%);
+  }
+  .calculator__key--operator {
+    background: hsl(208, 25%, 86%);
+  }
+  .calculator__key--enter {
+    grid-column: 4 / 5;
+    grid-row: 2 / span 4;
+    background: hsl(357, 100%, 72%);
+  }
+  .calculator__key:hover{
+    transform: scale(1.5); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+
+  }

@@ -1,0 +1,55 @@
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 5px;
+    box-shadow: 2px 2px 5px #ccc;
+}
+nav > .first-side-icon-container > h1{
+    padding-left: 40px;
+    text-transform: uppercase;
+    font-weight: 800;
+
+}
+nav .second-side-container{
+    justify-content: center;
+    align-items: center;
+    display: flex;
+
+}
+nav .second-side-container > a{
+    margin-right: 20px;
+    font-size: 1.2rem;
+    text-decoration: none;
+    color: #111;
+    transition: 0.9s;
+}
+nav .second-side-container > a:last-child{
+    margin-right: 50px;
+}
+nav .second-side-container > a:hover{
+    color: gray;
+    opacity: 0.9;
+}
+
+
+
+.card-container{
+    display: grid;
+    margin-top: 2rem;
+    grid-template-columns: repeat(3, 1fr);
+}
+.card >img{
+    max-width: 400px;
+    margin-left: 20px;
+    text-align: center;
+}
+
+/* responsive ke liye phone:768px,  */
+@media screen and (max-width:768px) {
+    .card-container{
+        display: block;
+        text-align: center;
+    }
+    
+}
